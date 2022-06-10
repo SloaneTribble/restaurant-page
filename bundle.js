@@ -790,6 +790,22 @@ const mainContentContainer = (0,_main_content_js__WEBPACK_IMPORTED_MODULE_3__.ma
 
 contentBody.appendChild(mainContentContainer);
 
+const homeButton = document.querySelector(".home-tab");
+homeButton.addEventListener("click", ()=>{
+    console.log("Home");
+});
+
+const menuButton = document.querySelector(".menu-tab");
+menuButton.addEventListener("click", ()=>{
+    console.log("Menu");
+});
+
+const contactButton = document.querySelector(".contact-tab");
+contactButton.addEventListener("click", ()=>{
+    console.log("Contact");
+});
+
+
 
 
 
