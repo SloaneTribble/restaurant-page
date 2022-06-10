@@ -1,12 +1,24 @@
 html{
     box-sizing: border-box;
 }
+
+body{
+    min-height: 100vh;
+    display: flex;
+}
 *,
 *:before,
 *:after{
     box-sizing: inherit;
     max-width: 100%;
     margin: 0;
+}
+
+.body{
+    display: grid;
+    grid-template-rows: 1fr 8fr 1fr;
+    min-height: 100%;
+    min-width: 100%;
 }
 
 .header{
@@ -27,11 +39,15 @@ html{
     background-color: orange;
 }
 
-.hello {
-    background-color: red;
+.main-content{
+    display: flex;
+    flex: 1;
+    height: 100%;
+    width: 100%;
+    background-color: darksalmon;
 }
 
-.there{
+.home{
     background-color: green;
     height: 15px;
 }

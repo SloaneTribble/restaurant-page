@@ -1,10 +1,10 @@
     
-function bodyMaker(){
+function homeMaker(){
         function component() {
         const element = document.createElement('div');
         
-        element.classList.add('there');
-        element.textContent = 'body';
+        element.classList.add('home');
+        element.textContent = 'home';
         
         return element;
     }
@@ -13,4 +13,4 @@ function bodyMaker(){
 
 }
 
-export {bodyMaker};
+export {homeMaker};

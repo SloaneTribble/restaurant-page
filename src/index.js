@@ -1,10 +1,19 @@
 import './style.css';
+import {bodyMaker} from './body.js';
 import {headerMaker} from './header.js';
-import {bodyMaker} from './home.js';
+import {mainContent} from './main-content.js';
+import {homeMaker} from './home.js';
 import waluigi from './images/waluigi.jpeg';
 
-document.body.appendChild(headerMaker());
+const contentBody = bodyMaker();
+
+document.body.appendChild(contentBody);
+
+contentBody.appendChild(headerMaker());
+
+const mainContentContainer = mainContent();
+
+contentBody.appendChild(mainContentContainer);
 
 
 
-bodyMaker();
