@@ -1,31 +1,39 @@
 import './style.css';
-import {bodyMaker} from './body.js';
-import {headerMaker} from './header.js';
-import {mainContent} from './main-content.js';
 import {homeMaker} from './home.js';
 import {menu} from './menu.js';
 import {contact} from './contact';
-import {footer} from './footer';
 import waluigi from './images/waluigi.jpeg';
 
-// contentBody contains everything on the page
-const contentBody = bodyMaker();
+import{pageLoad} from './initial';
 
-document.body.appendChild(contentBody);
+// The below code was moved to initial.js
 
-contentBody.appendChild(headerMaker());
+// import {bodyMaker} from './body.js';
+// import {headerMaker} from './header.js';
+// import {mainContent} from './main-content.js';
+// import {footer} from './footer';
+// // contentBody contains everything on the page
+// const contentBody = bodyMaker();
 
-// mainContentContainer holds the home, menu or contact page
+// document.body.appendChild(contentBody);
 
-const mainContentContainer = mainContent();
+// contentBody.appendChild(headerMaker());
 
-contentBody.appendChild(mainContentContainer);
+// // mainContentContainer holds the home, menu or contact page
 
-mainContentContainer.appendChild(homeMaker());
+// const mainContentContainer = mainContent();
 
-contentBody.appendChild(footer());
+// contentBody.appendChild(mainContentContainer);
+
+// contentBody.appendChild(footer());
+
+// mainContentContainer.appendChild(homeMaker());
+
+pageLoad();
+
 
 // Tabs will clear mainContentContainer and replace with relevant section material
+const mainContentContainer = document.querySelector('.main-content');
 
 const homeButton = document.querySelector(".home-tab");
 homeButton.addEventListener("click", ()=>{
