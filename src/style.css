@@ -40,14 +40,27 @@ body{
 }
 
 .main-content{
-    display: flex;
-    flex: 1;
-    height: 100%;
-    width: 100%;
+    display: flex; 
     background-color: darksalmon;
 }
 
 .home{
     background-color: green;
-    height: 15px;
+    flex: 1;
+    height: 100%;
+    width: 100%;
+}
+
+.menu{
+    background-color: violet;
+    flex: 1;
+    height: 100%;
+    width: 100%;
+}
+
+.contact{
+    background-color: lime;
+    flex: 1;
+    height: 100%;
+    width: 100%;
 }
