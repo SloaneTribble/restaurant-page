@@ -1,9 +1,37 @@
+html{
+    box-sizing: border-box;
+}
+*,
+*:before,
+*:after{
+    box-sizing: inherit;
+    max-width: 100%;
+    margin: 0;
+}
+
+.header{
+    background-color: turquoise;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.home-tab{
+    background-color: beige;
+}
+
+.menu-tab{
+    background-color: violet;
+}
+
+.contact-tab{
+    background-color: orange;
+}
+
 .hello {
     background-color: red;
 }
 
 .there{
-    background-color: blue;
+    background-color: green;
     height: 15px;
-    background-image: url(./images/waluigi.jpeg);
 }

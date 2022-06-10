@@ -1,10 +1,10 @@
     
-function componentMaker(){
+function bodyMaker(){
         function component() {
         const element = document.createElement('div');
         
-        // Lodash, now imported by this script
         element.classList.add('there');
+        element.textContent = 'body';
         
         return element;
     }
@@ -13,4 +13,4 @@ function componentMaker(){
 
 }
 
-componentMaker();
+export {bodyMaker};
