@@ -21,7 +21,7 @@ function headerMaker(){
     header.appendChild(title);
     header.appendChild(homeTab);
     header.appendChild(menuTab);
-    header.appendChild(contactTab);
+    header.appendChild(contactTab);   
 
     return header;
 }

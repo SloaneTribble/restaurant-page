@@ -41,6 +41,7 @@ body{
 
 .main-content{
     display: flex; 
+    flex-direction: column;
     background-color: darksalmon;
 }
 
@@ -60,6 +61,13 @@ body{
 
 .contact{
     background-color: lime;
+    flex: 1;
+    height: 100%;
+    width: 100%;
+}
+
+.footer{
+    background-color: firebrick;
     flex: 1;
     height: 100%;
     width: 100%;

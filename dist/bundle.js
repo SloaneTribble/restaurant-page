@@ -21,7 +21,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "html{\n    box-sizing: border-box;\n}\n\nbody{\n    min-height: 100vh;\n    display: flex;\n}\n*,\n*:before,\n*:after{\n    box-sizing: inherit;\n    max-width: 100%;\n    margin: 0;\n}\n\n.body{\n    display: grid;\n    grid-template-rows: 1fr 8fr 1fr;\n    min-height: 100%;\n    min-width: 100%;\n}\n\n.header{\n    background-color: turquoise;\n    display: grid;\n    grid-template-columns: repeat(4, 1fr);\n}\n\n.home-tab{\n    background-color: beige;\n}\n\n.menu-tab{\n    background-color: violet;\n}\n\n.contact-tab{\n    background-color: orange;\n}\n\n.main-content{\n    display: flex; \n    background-color: darksalmon;\n}\n\n.home{\n    background-color: green;\n    flex: 1;\n    height: 100%;\n    width: 100%;\n}\n\n.menu{\n    background-color: violet;\n    flex: 1;\n    height: 100%;\n    width: 100%;\n}\n\n.contact{\n    background-color: lime;\n    flex: 1;\n    height: 100%;\n    width: 100%;\n}", "",{"version":3,"sources":["webpack://./src/style.css"],"names":[],"mappings":"AAAA;IACI,sBAAsB;AAC1B;;AAEA;IACI,iBAAiB;IACjB,aAAa;AACjB;AACA;;;IAGI,mBAAmB;IACnB,eAAe;IACf,SAAS;AACb;;AAEA;IACI,aAAa;IACb,+BAA+B;IAC/B,gBAAgB;IAChB,eAAe;AACnB;;AAEA;IACI,2BAA2B;IAC3B,aAAa;IACb,qCAAqC;AACzC;;AAEA;IACI,uBAAuB;AAC3B;;AAEA;IACI,wBAAwB;AAC5B;;AAEA;IACI,wBAAwB;AAC5B;;AAEA;IACI,aAAa;IACb,4BAA4B;AAChC;;AAEA;IACI,uBAAuB;IACvB,OAAO;IACP,YAAY;IACZ,WAAW;AACf;;AAEA;IACI,wBAAwB;IACxB,OAAO;IACP,YAAY;IACZ,WAAW;AACf;;AAEA;IACI,sBAAsB;IACtB,OAAO;IACP,YAAY;IACZ,WAAW;AACf","sourcesContent":["html{\n    box-sizing: border-box;\n}\n\nbody{\n    min-height: 100vh;\n    display: flex;\n}\n*,\n*:before,\n*:after{\n    box-sizing: inherit;\n    max-width: 100%;\n    margin: 0;\n}\n\n.body{\n    display: grid;\n    grid-template-rows: 1fr 8fr 1fr;\n    min-height: 100%;\n    min-width: 100%;\n}\n\n.header{\n    background-color: turquoise;\n    display: grid;\n    grid-template-columns: repeat(4, 1fr);\n}\n\n.home-tab{\n    background-color: beige;\n}\n\n.menu-tab{\n    background-color: violet;\n}\n\n.contact-tab{\n    background-color: orange;\n}\n\n.main-content{\n    display: flex; \n    background-color: darksalmon;\n}\n\n.home{\n    background-color: green;\n    flex: 1;\n    height: 100%;\n    width: 100%;\n}\n\n.menu{\n    background-color: violet;\n    flex: 1;\n    height: 100%;\n    width: 100%;\n}\n\n.contact{\n    background-color: lime;\n    flex: 1;\n    height: 100%;\n    width: 100%;\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "html{\n    box-sizing: border-box;\n}\n\nbody{\n    min-height: 100vh;\n    display: flex;\n}\n*,\n*:before,\n*:after{\n    box-sizing: inherit;\n    max-width: 100%;\n    margin: 0;\n}\n\n.body{\n    display: grid;\n    grid-template-rows: 1fr 8fr 1fr;\n    min-height: 100%;\n    min-width: 100%;\n}\n\n.header{\n    background-color: turquoise;\n    display: grid;\n    grid-template-columns: repeat(4, 1fr);\n}\n\n.home-tab{\n    background-color: beige;\n}\n\n.menu-tab{\n    background-color: violet;\n}\n\n.contact-tab{\n    background-color: orange;\n}\n\n.main-content{\n    display: flex; \n    flex-direction: column;\n    background-color: darksalmon;\n}\n\n.home{\n    background-color: green;\n    flex: 1;\n    height: 100%;\n    width: 100%;\n}\n\n.menu{\n    background-color: violet;\n    flex: 1;\n    height: 100%;\n    width: 100%;\n}\n\n.contact{\n    background-color: lime;\n    flex: 1;\n    height: 100%;\n    width: 100%;\n}\n\n.footer{\n    background-color: firebrick;\n    flex: 1;\n    height: 100%;\n    width: 100%;\n}", "",{"version":3,"sources":["webpack://./src/style.css"],"names":[],"mappings":"AAAA;IACI,sBAAsB;AAC1B;;AAEA;IACI,iBAAiB;IACjB,aAAa;AACjB;AACA;;;IAGI,mBAAmB;IACnB,eAAe;IACf,SAAS;AACb;;AAEA;IACI,aAAa;IACb,+BAA+B;IAC/B,gBAAgB;IAChB,eAAe;AACnB;;AAEA;IACI,2BAA2B;IAC3B,aAAa;IACb,qCAAqC;AACzC;;AAEA;IACI,uBAAuB;AAC3B;;AAEA;IACI,wBAAwB;AAC5B;;AAEA;IACI,wBAAwB;AAC5B;;AAEA;IACI,aAAa;IACb,sBAAsB;IACtB,4BAA4B;AAChC;;AAEA;IACI,uBAAuB;IACvB,OAAO;IACP,YAAY;IACZ,WAAW;AACf;;AAEA;IACI,wBAAwB;IACxB,OAAO;IACP,YAAY;IACZ,WAAW;AACf;;AAEA;IACI,sBAAsB;IACtB,OAAO;IACP,YAAY;IACZ,WAAW;AACf;;AAEA;IACI,2BAA2B;IAC3B,OAAO;IACP,YAAY;IACZ,WAAW;AACf","sourcesContent":["html{\n    box-sizing: border-box;\n}\n\nbody{\n    min-height: 100vh;\n    display: flex;\n}\n*,\n*:before,\n*:after{\n    box-sizing: inherit;\n    max-width: 100%;\n    margin: 0;\n}\n\n.body{\n    display: grid;\n    grid-template-rows: 1fr 8fr 1fr;\n    min-height: 100%;\n    min-width: 100%;\n}\n\n.header{\n    background-color: turquoise;\n    display: grid;\n    grid-template-columns: repeat(4, 1fr);\n}\n\n.home-tab{\n    background-color: beige;\n}\n\n.menu-tab{\n    background-color: violet;\n}\n\n.contact-tab{\n    background-color: orange;\n}\n\n.main-content{\n    display: flex; \n    flex-direction: column;\n    background-color: darksalmon;\n}\n\n.home{\n    background-color: green;\n    flex: 1;\n    height: 100%;\n    width: 100%;\n}\n\n.menu{\n    background-color: violet;\n    flex: 1;\n    height: 100%;\n    width: 100%;\n}\n\n.contact{\n    background-color: lime;\n    flex: 1;\n    height: 100%;\n    width: 100%;\n}\n\n.footer{\n    background-color: firebrick;\n    flex: 1;\n    height: 100%;\n    width: 100%;\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -573,6 +573,28 @@ function contact(){
 
 /***/ }),
 
+/***/ "./src/footer.js":
+/*!***********************!*\
+  !*** ./src/footer.js ***!
+  \***********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "footer": () => (/* binding */ footer)
+/* harmony export */ });
+function footer(){
+    const footer = document.createElement('div');
+    footer.classList.add('footer');
+    footer.textContent = 'footer';
+
+    return footer;
+}
+
+
+
+/***/ }),
+
 /***/ "./src/header.js":
 /*!***********************!*\
   !*** ./src/header.js ***!
@@ -606,7 +628,7 @@ function headerMaker(){
     header.appendChild(title);
     header.appendChild(homeTab);
     header.appendChild(menuTab);
-    header.appendChild(contactTab);
+    header.appendChild(contactTab);   
 
     return header;
 }
@@ -812,7 +834,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _home_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./home.js */ "./src/home.js");
 /* harmony import */ var _menu_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./menu.js */ "./src/menu.js");
 /* harmony import */ var _contact__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./contact */ "./src/contact.js");
-/* harmony import */ var _images_waluigi_jpeg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./images/waluigi.jpeg */ "./src/images/waluigi.jpeg");
+/* harmony import */ var _footer__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./footer */ "./src/footer.js");
+/* harmony import */ var _images_waluigi_jpeg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./images/waluigi.jpeg */ "./src/images/waluigi.jpeg");
+
 
 
 
@@ -837,6 +861,9 @@ contentBody.appendChild(mainContentContainer);
 
 mainContentContainer.appendChild((0,_home_js__WEBPACK_IMPORTED_MODULE_4__.homeMaker)());
 
+contentBody.appendChild((0,_footer__WEBPACK_IMPORTED_MODULE_7__.footer)());
+
+// Tabs will clear mainContentContainer and replace with relevant section material
 
 const homeButton = document.querySelector(".home-tab");
 homeButton.addEventListener("click", ()=>{
