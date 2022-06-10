@@ -662,6 +662,52 @@ function homeMaker(){
 
 /***/ }),
 
+/***/ "./src/initial.js":
+/*!************************!*\
+  !*** ./src/initial.js ***!
+  \************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "pageLoad": () => (/* binding */ pageLoad)
+/* harmony export */ });
+/* harmony import */ var _body_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./body.js */ "./src/body.js");
+/* harmony import */ var _header_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./header.js */ "./src/header.js");
+/* harmony import */ var _main_content_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./main-content.js */ "./src/main-content.js");
+/* harmony import */ var _home_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./home.js */ "./src/home.js");
+/* harmony import */ var _footer__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./footer */ "./src/footer.js");
+/* harmony import */ var _images_waluigi_jpeg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./images/waluigi.jpeg */ "./src/images/waluigi.jpeg");
+
+
+
+
+
+
+
+// contentBody contains everything on the page
+
+
+function pageLoad() {const contentBody = (0,_body_js__WEBPACK_IMPORTED_MODULE_0__.bodyMaker)();
+
+document.body.appendChild(contentBody);
+
+contentBody.appendChild((0,_header_js__WEBPACK_IMPORTED_MODULE_1__.headerMaker)());
+
+// mainContentContainer holds the home, menu or contact page
+
+const mainContentContainer = (0,_main_content_js__WEBPACK_IMPORTED_MODULE_2__.mainContent)();
+
+contentBody.appendChild(mainContentContainer);
+
+contentBody.appendChild((0,_footer__WEBPACK_IMPORTED_MODULE_4__.footer)());
+
+mainContentContainer.appendChild((0,_home_js__WEBPACK_IMPORTED_MODULE_3__.homeMaker)());}
+
+
+
+/***/ }),
+
 /***/ "./src/main-content.js":
 /*!*****************************!*\
   !*** ./src/main-content.js ***!
@@ -828,14 +874,11 @@ var __webpack_exports__ = {};
   \**********************/
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ "./src/style.css");
-/* harmony import */ var _body_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./body.js */ "./src/body.js");
-/* harmony import */ var _header_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./header.js */ "./src/header.js");
-/* harmony import */ var _main_content_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./main-content.js */ "./src/main-content.js");
-/* harmony import */ var _home_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./home.js */ "./src/home.js");
-/* harmony import */ var _menu_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./menu.js */ "./src/menu.js");
-/* harmony import */ var _contact__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./contact */ "./src/contact.js");
-/* harmony import */ var _footer__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./footer */ "./src/footer.js");
-/* harmony import */ var _images_waluigi_jpeg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./images/waluigi.jpeg */ "./src/images/waluigi.jpeg");
+/* harmony import */ var _home_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./home.js */ "./src/home.js");
+/* harmony import */ var _menu_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./menu.js */ "./src/menu.js");
+/* harmony import */ var _contact__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./contact */ "./src/contact.js");
+/* harmony import */ var _images_waluigi_jpeg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./images/waluigi.jpeg */ "./src/images/waluigi.jpeg");
+/* harmony import */ var _initial__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./initial */ "./src/initial.js");
 
 
 
@@ -844,39 +887,47 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+// The below code was moved to initial.js
 
+// import {bodyMaker} from './body.js';
+// import {headerMaker} from './header.js';
+// import {mainContent} from './main-content.js';
+// import {footer} from './footer';
+// // contentBody contains everything on the page
+// const contentBody = bodyMaker();
 
-// contentBody contains everything on the page
-const contentBody = (0,_body_js__WEBPACK_IMPORTED_MODULE_1__.bodyMaker)();
+// document.body.appendChild(contentBody);
 
-document.body.appendChild(contentBody);
+// contentBody.appendChild(headerMaker());
 
-contentBody.appendChild((0,_header_js__WEBPACK_IMPORTED_MODULE_2__.headerMaker)());
+// // mainContentContainer holds the home, menu or contact page
 
-// mainContentContainer holds the home, menu or contact page
+// const mainContentContainer = mainContent();
 
-const mainContentContainer = (0,_main_content_js__WEBPACK_IMPORTED_MODULE_3__.mainContent)();
+// contentBody.appendChild(mainContentContainer);
 
-contentBody.appendChild(mainContentContainer);
+// contentBody.appendChild(footer());
 
-mainContentContainer.appendChild((0,_home_js__WEBPACK_IMPORTED_MODULE_4__.homeMaker)());
+// mainContentContainer.appendChild(homeMaker());
 
-contentBody.appendChild((0,_footer__WEBPACK_IMPORTED_MODULE_7__.footer)());
+(0,_initial__WEBPACK_IMPORTED_MODULE_5__.pageLoad)();
+
 
 // Tabs will clear mainContentContainer and replace with relevant section material
+const mainContentContainer = document.querySelector('.main-content');
 
 const homeButton = document.querySelector(".home-tab");
 homeButton.addEventListener("click", ()=>{
     console.log("Home");
     mainContentContainer.removeChild(mainContentContainer.firstElementChild);
-    mainContentContainer.appendChild((0,_home_js__WEBPACK_IMPORTED_MODULE_4__.homeMaker)());
+    mainContentContainer.appendChild((0,_home_js__WEBPACK_IMPORTED_MODULE_1__.homeMaker)());
 });
 
 const menuButton = document.querySelector(".menu-tab");
 menuButton.addEventListener("click", ()=>{
     console.log("Menu");
     mainContentContainer.removeChild(mainContentContainer.firstElementChild);
-    mainContentContainer.appendChild((0,_menu_js__WEBPACK_IMPORTED_MODULE_5__.menu)());
+    mainContentContainer.appendChild((0,_menu_js__WEBPACK_IMPORTED_MODULE_2__.menu)());
 
 });
 
@@ -884,7 +935,7 @@ const contactButton = document.querySelector(".contact-tab");
 contactButton.addEventListener("click", ()=>{
     console.log("Contact");
     mainContentContainer.removeChild(mainContentContainer.firstElementChild);
-    mainContentContainer.appendChild((0,_contact__WEBPACK_IMPORTED_MODULE_6__.contact)());
+    mainContentContainer.appendChild((0,_contact__WEBPACK_IMPORTED_MODULE_3__.contact)());
 });
 
 
