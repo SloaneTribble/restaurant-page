@@ -7,20 +7,22 @@ import {footer} from './footer';
 // contentBody contains everything on the page
 
 
-function pageLoad() {const contentBody = bodyMaker();
+function pageLoad() {
+    const contentBody = bodyMaker();
 
-document.body.appendChild(contentBody);
+    document.body.appendChild(contentBody);
 
-contentBody.appendChild(headerMaker());
+    contentBody.appendChild(headerMaker());
 
-// mainContentContainer holds the home, menu or contact page
+    // mainContentContainer holds the home, menu or contact page
 
-const mainContentContainer = mainContent();
+    const mainContentContainer = mainContent();
 
-contentBody.appendChild(mainContentContainer);
+    contentBody.appendChild(mainContentContainer);
 
-contentBody.appendChild(footer());
+    contentBody.appendChild(footer());
 
-mainContentContainer.appendChild(homeMaker());}
+    mainContentContainer.appendChild(homeMaker());
+}
 
 export{pageLoad};

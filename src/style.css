@@ -83,6 +83,31 @@ button{
     flex: 1;
     height: 100%;
     width: 100%;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: end;
+}
+
+.intro{
+    background-color: var(--home);
+    color: grey;
+    height: 50%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo-credit{
+    justify-self: end;
+    padding-right: 5px;
+    padding-bottom: 5px;
+}
+
+a:visited{
+    color: orange;
 }
 
 .menu{
@@ -107,7 +132,8 @@ button{
 
 
 .item-description{
-    white-space: pre-line;
+    /* white-space allows for line breaks */
+    white-space: pre-line; 
     font-style: italic;
     font-weight: 100;
 }
@@ -126,4 +152,9 @@ button{
     flex: 1;
     height: 100%;
     width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+    color: rgb(228, 253, 216);
 }

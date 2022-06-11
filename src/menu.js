@@ -2,7 +2,7 @@ function menu(){
     const menu = document.createElement('div');
     menu.classList.add('menu');
 
-    const classic = menuItem("Classic", "Our namesake dip", "14");
+    const classic = menuItem("Classic Whip", "Our namesake dip", "14");
     const spicy = menuItem("Spicy", "A spicy twist on an old favorite", "17");
     const thin = menuItem("Thin", "Flavor takes center stage with this heritage selection", "12");
     const herbed = menuItem("Herbed", "A creamy dip featuring the rarest herbs", "15");
@@ -41,9 +41,3 @@ function menuItem(title, description, price){
 }
 
 export {menu};
-
-// Photo by Abbie Tanner on Unsplash https://unsplash.com/@by_abigailkelly
-// Photo by Vicky Ng on Unsplash https://unsplash.com/@vickyng
-// Photo by Jesse Cortez on Unsplash https://unsplash.com/@zues_segami
-// Photo by Semi O https://unsplash.com/@semce 
-// Photo by Patrycja Polechonska on Unsplash https://unsplash.com/@ppolecho
