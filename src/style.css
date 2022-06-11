@@ -79,8 +79,7 @@ button{
     background-color: darksalmon;
 }
 
-.home{
-    
+.home{   
     flex: 1;
     height: 100%;
     width: 100%;
@@ -90,6 +89,7 @@ button{
     background-color: var(--menu);
     flex: 1;
     display: grid;
+    grid-template-rows: repeat(5, 1fr);
     width: 60%;
     gap: 5px;
     padding: 5px;
@@ -99,11 +99,17 @@ button{
     border: solid black 2px;
     background-color: rgb(255, 177, 108);
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1.2rem 0;
 }
 
 
 .item-description{
     white-space: pre-line;
+    font-style: italic;
+    font-weight: 100;
 }
 
 .contact{

@@ -2,42 +2,11 @@ function menu(){
     const menu = document.createElement('div');
     menu.classList.add('menu');
 
-    const classic = document.createElement('div');
-    classic.classList.add('menu-item');
-
-    const classicTitle = document.createElement('span');
-    classicTitle.textContent = "Classic";
-
-    const classicDescription = document.createElement('div');
-    classicDescription.classList.add('item-description');
-    classicDescription.textContent = "Our namesake dip \n $14";
-
-    classic.appendChild(classicTitle);
-    classic.appendChild(classicDescription);
-
-    const spicy = document.createElement('div');
-    spicy.classList.add('menu-item');
-    spicy.textContent = 'spicy';
-
-
-
-    const thin = document.createElement('div');
-    thin.classList.add('menu-item');
-    thin.textContent = 'thin';
-
-
-
-    const herbed = document.createElement('div');
-    herbed.classList.add('menu-item');
-    herbed.textContent = 'herbed';
-
-
-
-    const creamy = document.createElement('div');
-    creamy.classList.add('menu-item');
-    creamy.textContent = 'creamy';
-
-
+    const classic = menuItem("Classic", "Our namesake dip", "14");
+    const spicy = menuItem("Spicy", "A spicy twist on an old favorite", "17");
+    const thin = menuItem("Thin", "Flavor takes center stage with this heritage selection", "12");
+    const herbed = menuItem("Herbed", "A creamy dip featuring the rarest herbs", "15");
+    const creamy = menuItem("Creamy", "Classic dip with a boost of cream", "16");
 
     menu.appendChild(classic);
     menu.appendChild(spicy);
@@ -45,8 +14,30 @@ function menu(){
     menu.appendChild(herbed);
     menu.appendChild(creamy);
 
-
     return menu;
+}
+
+function menuItem(title, description, price){
+    const menuItem = document.createElement('div');
+    menuItem.classList.add('menu-item');
+
+    const itemTitle = document.createElement('span');
+    itemTitle.textContent = title;
+
+    menuItem.appendChild(itemTitle);
+
+    const itemDescription = document.createElement('div');
+    itemDescription.classList.add("item-description");
+    itemDescription.textContent = description;
+
+    menuItem.appendChild(itemDescription);
+
+    const itemPrice = document.createElement('span');
+    itemPrice.textContent = price;
+
+    menuItem.appendChild(itemPrice);
+
+    return menuItem;
 }
 
 export {menu};
