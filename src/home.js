@@ -12,7 +12,8 @@ function homeMaker(){
 
         const credit = document.createElement('span');
         credit.classList.add('photo-credit');
-        credit.innerHTML = 'Photo by <a href="https://unsplash.com/@victoriakosmo">Victoria Shes</a> on <a href="https://unsplash.com/">Unsplash</a>';   
+        credit.innerHTML = `Photos by <a href="https://unsplash.com/@victoriakosmo">Victoria Shes</a> on <a href="https://unsplash.com/">Unsplash</a>
+        and <a href='https://pngtree.com/so/Mayonnaise'>pngtree.com</a>` ;   
 
         element.appendChild(credit);
         return element;

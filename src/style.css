@@ -115,6 +115,10 @@ button{
     padding-bottom: 5px;
 }
 
+a:link{
+    color: white;
+}
+
 a:visited{
     color: orange;
 }
