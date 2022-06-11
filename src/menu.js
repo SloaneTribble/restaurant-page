@@ -4,23 +4,40 @@ function menu(){
 
     const classic = document.createElement('div');
     classic.classList.add('menu-item');
-    classic.textContent = 'classic';
+
+    const classicTitle = document.createElement('span');
+    classicTitle.textContent = "Classic";
+
+    const classicDescription = document.createElement('div');
+    classicDescription.classList.add('item-description');
+    classicDescription.textContent = "Our namesake dip \n $14";
+
+    classic.appendChild(classicTitle);
+    classic.appendChild(classicDescription);
 
     const spicy = document.createElement('div');
     spicy.classList.add('menu-item');
     spicy.textContent = 'spicy';
 
+
+
     const thin = document.createElement('div');
     thin.classList.add('menu-item');
     thin.textContent = 'thin';
+
+
 
     const herbed = document.createElement('div');
     herbed.classList.add('menu-item');
     herbed.textContent = 'herbed';
 
+
+
     const creamy = document.createElement('div');
     creamy.classList.add('menu-item');
     creamy.textContent = 'creamy';
+
+
 
     menu.appendChild(classic);
     menu.appendChild(spicy);

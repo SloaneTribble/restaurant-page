@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 
+:root{
+    --menu: rgb(142, 0, 0);
+    --home: beige;
+}
+
 html,
 body{
     box-sizing: border-box;
@@ -48,11 +53,11 @@ button{
 }
 
 .home-tab{
-    background-color: beige;
+    background-color: var(--home);
 }
 
 .menu-tab{
-    background-color: violet;
+    background-color: var(--menu);
 }
 
 .contact-tab{
@@ -68,6 +73,7 @@ button{
     background-size: cover;
     background-position: center;
     display: flex; 
+    align-items: center;
     flex: 1;
     flex-direction: column;
     background-color: darksalmon;
@@ -81,18 +87,23 @@ button{
 }
 
 .menu{
-    background-color: violet;
+    background-color: var(--menu);
     flex: 1;
     display: grid;
-    row-gap: 5px;
-    padding-bottom: 10px;
-    width: 80%;
-    height: 100%;
-    min-height: 150vh;
+    width: 60%;
+    gap: 5px;
+    padding: 5px;
 }
 
 .menu-item{
     border: solid black 2px;
+    background-color: rgb(255, 177, 108);
+    text-align: center;
+}
+
+
+.item-description{
+    white-space: pre-line;
 }
 
 .contact{
