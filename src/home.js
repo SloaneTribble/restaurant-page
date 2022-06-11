@@ -6,7 +6,7 @@ function homeMaker(){
 
         const intro = document.createElement('div');
         intro.classList.add('intro');
-        intro.innerText = "Bubby's has been serving hand-whipped dips since 1956";
+        intro.innerText = "With pride and passion, Bubby's has served hand-whipped dips since 1956.";
 
         element.appendChild(intro);
 

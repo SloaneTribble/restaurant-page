@@ -2,7 +2,9 @@
 
 :root{
     --menu: rgb(142, 0, 0);
-    --home: beige;
+    --home: rgb(245, 239, 220);
+    --contact: orange;
+    --shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.6);
 }
 
 html,
@@ -43,6 +45,7 @@ body{
 .title{
     padding: 0 10px;
     font-size: 2.5rem;
+    box-shadow: var(--shadow);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -61,7 +64,7 @@ button{
 }
 
 .contact-tab{
-    background-color: orange;
+    background-color: var(--contact);
 }
 
 /* End header */
@@ -92,12 +95,18 @@ button{
 
 .intro{
     background-color: var(--home);
-    color: grey;
-    height: 50%;
-    width: 50%;
+    box-shadow: var(--shadow);
+    height: 60%;
+    width: 60%;
+    color: black;
+    border: groove 2px black;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 32px;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 200;
 }
 
 .photo-credit{
@@ -123,6 +132,7 @@ a:visited{
 .menu-item{
     border: solid black 2px;
     background-color: rgb(255, 177, 108);
+    box-shadow: var(--shadow);
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -132,23 +142,31 @@ a:visited{
 
 
 .item-description{
-    /* white-space allows for line breaks */
-    white-space: pre-line; 
     font-style: italic;
     font-weight: 100;
 }
 
 .contact{
-    background-color: lime;
-    flex: 1;
+    background-color: var(--contact);
+    box-shadow: var(--shadow);
     height: 100%;
-    width: 100%;
+    width: 60%;
+    padding: 5% 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    font-size: 2rem;
+    border: 2px groove black;
 }
 
 /* End main content */
 
 .footer{
     background-color: firebrick;
+    box-shadow: var(--shadow);
     flex: 1;
     height: 100%;
     width: 100%;
@@ -156,5 +174,5 @@ a:visited{
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
     align-items: center;
-    color: rgb(228, 253, 216);
+    color: var(--home);
 }
