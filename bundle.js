@@ -27,7 +27,7 @@ var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBP
 ___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap);"]);
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ":root{\n    --menu: rgb(142, 0, 0);\n    --home: beige;\n}\n\nhtml,\nbody{\n    box-sizing: border-box;\n}\n\nbody{\n    min-height: 100vh;\n    display: flex;\n    flex: 1;\n}\n*,\n*:before,\n*:after{\n    box-sizing: inherit;\n    max-width: 100%;\n    margin: 0;\n    font-family: 'Abril Fatface', cursive;\n}\n\n.body{\n    display: grid;\n    grid-template-rows: 1fr 8fr .5fr;\n    flex: 1;\n    min-height: 100%;\n    min-width: 100%;\n}\n\n/* Begin header */\n\n.header{\n    background-color: turquoise;\n    display: grid;\n    grid-template-columns: 2fr repeat(3, 1fr);\n}\n\n.title{\n    padding: 0 10px;\n    font-size: 2.5rem;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n}\n\nbutton{\n    font-size: 1.5rem;\n}\n\n.home-tab{\n    background-color: var(--home);\n}\n\n.menu-tab{\n    background-color: var(--menu);\n}\n\n.contact-tab{\n    background-color: orange;\n}\n\n/* End header */\n\n/* Begin main content */\n\n.main-content{\n    background: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n    background-size: cover;\n    background-position: center;\n    display: flex; \n    align-items: center;\n    flex: 1;\n    flex-direction: column;\n    background-color: darksalmon;\n}\n\n.home{\n    \n    flex: 1;\n    height: 100%;\n    width: 100%;\n}\n\n.menu{\n    background-color: var(--menu);\n    flex: 1;\n    display: grid;\n    width: 60%;\n    gap: 5px;\n    padding: 5px;\n}\n\n.menu-item{\n    border: solid black 2px;\n    background-color: rgb(255, 177, 108);\n    text-align: center;\n}\n\n\n.item-description{\n    white-space: pre-line;\n}\n\n.contact{\n    background-color: lime;\n    flex: 1;\n    height: 100%;\n    width: 100%;\n}\n\n/* End main content */\n\n.footer{\n    background-color: firebrick;\n    flex: 1;\n    height: 100%;\n    width: 100%;\n}", "",{"version":3,"sources":["webpack://./src/style.css"],"names":[],"mappings":"AAEA;IACI,sBAAsB;IACtB,aAAa;AACjB;;AAEA;;IAEI,sBAAsB;AAC1B;;AAEA;IACI,iBAAiB;IACjB,aAAa;IACb,OAAO;AACX;AACA;;;IAGI,mBAAmB;IACnB,eAAe;IACf,SAAS;IACT,qCAAqC;AACzC;;AAEA;IACI,aAAa;IACb,gCAAgC;IAChC,OAAO;IACP,gBAAgB;IAChB,eAAe;AACnB;;AAEA,iBAAiB;;AAEjB;IACI,2BAA2B;IAC3B,aAAa;IACb,yCAAyC;AAC7C;;AAEA;IACI,eAAe;IACf,iBAAiB;IACjB,aAAa;IACb,mBAAmB;IACnB,uBAAuB;AAC3B;;AAEA;IACI,iBAAiB;AACrB;;AAEA;IACI,6BAA6B;AACjC;;AAEA;IACI,6BAA6B;AACjC;;AAEA;IACI,wBAAwB;AAC5B;;AAEA,eAAe;;AAEf,uBAAuB;;AAEvB;IACI,mDAAwC;IACxC,sBAAsB;IACtB,2BAA2B;IAC3B,aAAa;IACb,mBAAmB;IACnB,OAAO;IACP,sBAAsB;IACtB,4BAA4B;AAChC;;AAEA;;IAEI,OAAO;IACP,YAAY;IACZ,WAAW;AACf;;AAEA;IACI,6BAA6B;IAC7B,OAAO;IACP,aAAa;IACb,UAAU;IACV,QAAQ;IACR,YAAY;AAChB;;AAEA;IACI,uBAAuB;IACvB,oCAAoC;IACpC,kBAAkB;AACtB;;;AAGA;IACI,qBAAqB;AACzB;;AAEA;IACI,sBAAsB;IACtB,OAAO;IACP,YAAY;IACZ,WAAW;AACf;;AAEA,qBAAqB;;AAErB;IACI,2BAA2B;IAC3B,OAAO;IACP,YAAY;IACZ,WAAW;AACf","sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');\n\n:root{\n    --menu: rgb(142, 0, 0);\n    --home: beige;\n}\n\nhtml,\nbody{\n    box-sizing: border-box;\n}\n\nbody{\n    min-height: 100vh;\n    display: flex;\n    flex: 1;\n}\n*,\n*:before,\n*:after{\n    box-sizing: inherit;\n    max-width: 100%;\n    margin: 0;\n    font-family: 'Abril Fatface', cursive;\n}\n\n.body{\n    display: grid;\n    grid-template-rows: 1fr 8fr .5fr;\n    flex: 1;\n    min-height: 100%;\n    min-width: 100%;\n}\n\n/* Begin header */\n\n.header{\n    background-color: turquoise;\n    display: grid;\n    grid-template-columns: 2fr repeat(3, 1fr);\n}\n\n.title{\n    padding: 0 10px;\n    font-size: 2.5rem;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n}\n\nbutton{\n    font-size: 1.5rem;\n}\n\n.home-tab{\n    background-color: var(--home);\n}\n\n.menu-tab{\n    background-color: var(--menu);\n}\n\n.contact-tab{\n    background-color: orange;\n}\n\n/* End header */\n\n/* Begin main content */\n\n.main-content{\n    background: url('./images/main-dip.jpg');\n    background-size: cover;\n    background-position: center;\n    display: flex; \n    align-items: center;\n    flex: 1;\n    flex-direction: column;\n    background-color: darksalmon;\n}\n\n.home{\n    \n    flex: 1;\n    height: 100%;\n    width: 100%;\n}\n\n.menu{\n    background-color: var(--menu);\n    flex: 1;\n    display: grid;\n    width: 60%;\n    gap: 5px;\n    padding: 5px;\n}\n\n.menu-item{\n    border: solid black 2px;\n    background-color: rgb(255, 177, 108);\n    text-align: center;\n}\n\n\n.item-description{\n    white-space: pre-line;\n}\n\n.contact{\n    background-color: lime;\n    flex: 1;\n    height: 100%;\n    width: 100%;\n}\n\n/* End main content */\n\n.footer{\n    background-color: firebrick;\n    flex: 1;\n    height: 100%;\n    width: 100%;\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, ":root{\n    --menu: rgb(142, 0, 0);\n    --home: beige;\n}\n\nhtml,\nbody{\n    box-sizing: border-box;\n}\n\nbody{\n    min-height: 100vh;\n    display: flex;\n    flex: 1;\n}\n*,\n*:before,\n*:after{\n    box-sizing: inherit;\n    max-width: 100%;\n    margin: 0;\n    font-family: 'Abril Fatface', cursive;\n}\n\n.body{\n    display: grid;\n    grid-template-rows: 1fr 8fr .5fr;\n    flex: 1;\n    min-height: 100%;\n    min-width: 100%;\n}\n\n/* Begin header */\n\n.header{\n    background-color: turquoise;\n    display: grid;\n    grid-template-columns: 2fr repeat(3, 1fr);\n}\n\n.title{\n    padding: 0 10px;\n    font-size: 2.5rem;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n}\n\nbutton{\n    font-size: 1.5rem;\n}\n\n.home-tab{\n    background-color: var(--home);\n}\n\n.menu-tab{\n    background-color: var(--menu);\n}\n\n.contact-tab{\n    background-color: orange;\n}\n\n/* End header */\n\n/* Begin main content */\n\n.main-content{\n    background: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n    background-size: cover;\n    background-position: center;\n    display: flex; \n    align-items: center;\n    flex: 1;\n    flex-direction: column;\n    background-color: darksalmon;\n}\n\n.home{   \n    flex: 1;\n    height: 100%;\n    width: 100%;\n}\n\n.menu{\n    background-color: var(--menu);\n    flex: 1;\n    display: grid;\n    grid-template-rows: repeat(5, 1fr);\n    width: 60%;\n    gap: 5px;\n    padding: 5px;\n}\n\n.menu-item{\n    border: solid black 2px;\n    background-color: rgb(255, 177, 108);\n    text-align: center;\n    display: flex;\n    flex-direction: column;\n    justify-content: space-around;\n    padding: 1.2rem 0;\n}\n\n\n.item-description{\n    white-space: pre-line;\n    font-style: italic;\n    font-weight: 100;\n}\n\n.contact{\n    background-color: lime;\n    flex: 1;\n    height: 100%;\n    width: 100%;\n}\n\n/* End main content */\n\n.footer{\n    background-color: firebrick;\n    flex: 1;\n    height: 100%;\n    width: 100%;\n}", "",{"version":3,"sources":["webpack://./src/style.css"],"names":[],"mappings":"AAEA;IACI,sBAAsB;IACtB,aAAa;AACjB;;AAEA;;IAEI,sBAAsB;AAC1B;;AAEA;IACI,iBAAiB;IACjB,aAAa;IACb,OAAO;AACX;AACA;;;IAGI,mBAAmB;IACnB,eAAe;IACf,SAAS;IACT,qCAAqC;AACzC;;AAEA;IACI,aAAa;IACb,gCAAgC;IAChC,OAAO;IACP,gBAAgB;IAChB,eAAe;AACnB;;AAEA,iBAAiB;;AAEjB;IACI,2BAA2B;IAC3B,aAAa;IACb,yCAAyC;AAC7C;;AAEA;IACI,eAAe;IACf,iBAAiB;IACjB,aAAa;IACb,mBAAmB;IACnB,uBAAuB;AAC3B;;AAEA;IACI,iBAAiB;AACrB;;AAEA;IACI,6BAA6B;AACjC;;AAEA;IACI,6BAA6B;AACjC;;AAEA;IACI,wBAAwB;AAC5B;;AAEA,eAAe;;AAEf,uBAAuB;;AAEvB;IACI,mDAAwC;IACxC,sBAAsB;IACtB,2BAA2B;IAC3B,aAAa;IACb,mBAAmB;IACnB,OAAO;IACP,sBAAsB;IACtB,4BAA4B;AAChC;;AAEA;IACI,OAAO;IACP,YAAY;IACZ,WAAW;AACf;;AAEA;IACI,6BAA6B;IAC7B,OAAO;IACP,aAAa;IACb,kCAAkC;IAClC,UAAU;IACV,QAAQ;IACR,YAAY;AAChB;;AAEA;IACI,uBAAuB;IACvB,oCAAoC;IACpC,kBAAkB;IAClB,aAAa;IACb,sBAAsB;IACtB,6BAA6B;IAC7B,iBAAiB;AACrB;;;AAGA;IACI,qBAAqB;IACrB,kBAAkB;IAClB,gBAAgB;AACpB;;AAEA;IACI,sBAAsB;IACtB,OAAO;IACP,YAAY;IACZ,WAAW;AACf;;AAEA,qBAAqB;;AAErB;IACI,2BAA2B;IAC3B,OAAO;IACP,YAAY;IACZ,WAAW;AACf","sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');\n\n:root{\n    --menu: rgb(142, 0, 0);\n    --home: beige;\n}\n\nhtml,\nbody{\n    box-sizing: border-box;\n}\n\nbody{\n    min-height: 100vh;\n    display: flex;\n    flex: 1;\n}\n*,\n*:before,\n*:after{\n    box-sizing: inherit;\n    max-width: 100%;\n    margin: 0;\n    font-family: 'Abril Fatface', cursive;\n}\n\n.body{\n    display: grid;\n    grid-template-rows: 1fr 8fr .5fr;\n    flex: 1;\n    min-height: 100%;\n    min-width: 100%;\n}\n\n/* Begin header */\n\n.header{\n    background-color: turquoise;\n    display: grid;\n    grid-template-columns: 2fr repeat(3, 1fr);\n}\n\n.title{\n    padding: 0 10px;\n    font-size: 2.5rem;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n}\n\nbutton{\n    font-size: 1.5rem;\n}\n\n.home-tab{\n    background-color: var(--home);\n}\n\n.menu-tab{\n    background-color: var(--menu);\n}\n\n.contact-tab{\n    background-color: orange;\n}\n\n/* End header */\n\n/* Begin main content */\n\n.main-content{\n    background: url('./images/main-dip.jpg');\n    background-size: cover;\n    background-position: center;\n    display: flex; \n    align-items: center;\n    flex: 1;\n    flex-direction: column;\n    background-color: darksalmon;\n}\n\n.home{   \n    flex: 1;\n    height: 100%;\n    width: 100%;\n}\n\n.menu{\n    background-color: var(--menu);\n    flex: 1;\n    display: grid;\n    grid-template-rows: repeat(5, 1fr);\n    width: 60%;\n    gap: 5px;\n    padding: 5px;\n}\n\n.menu-item{\n    border: solid black 2px;\n    background-color: rgb(255, 177, 108);\n    text-align: center;\n    display: flex;\n    flex-direction: column;\n    justify-content: space-around;\n    padding: 1.2rem 0;\n}\n\n\n.item-description{\n    white-space: pre-line;\n    font-style: italic;\n    font-weight: 100;\n}\n\n.contact{\n    background-color: lime;\n    flex: 1;\n    height: 100%;\n    width: 100%;\n}\n\n/* End main content */\n\n.footer{\n    background-color: firebrick;\n    flex: 1;\n    height: 100%;\n    width: 100%;\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -788,42 +788,11 @@ function menu(){
     const menu = document.createElement('div');
     menu.classList.add('menu');
 
-    const classic = document.createElement('div');
-    classic.classList.add('menu-item');
-
-    const classicTitle = document.createElement('span');
-    classicTitle.textContent = "Classic";
-
-    const classicDescription = document.createElement('div');
-    classicDescription.classList.add('item-description');
-    classicDescription.textContent = "Our namesake dip \n $14";
-
-    classic.appendChild(classicTitle);
-    classic.appendChild(classicDescription);
-
-    const spicy = document.createElement('div');
-    spicy.classList.add('menu-item');
-    spicy.textContent = 'spicy';
-
-
-
-    const thin = document.createElement('div');
-    thin.classList.add('menu-item');
-    thin.textContent = 'thin';
-
-
-
-    const herbed = document.createElement('div');
-    herbed.classList.add('menu-item');
-    herbed.textContent = 'herbed';
-
-
-
-    const creamy = document.createElement('div');
-    creamy.classList.add('menu-item');
-    creamy.textContent = 'creamy';
-
-
+    const classic = menuItem("Classic", "Our namesake dip", "14");
+    const spicy = menuItem("Spicy", "A spicy twist on an old favorite", "17");
+    const thin = menuItem("Thin", "Flavor takes center stage with this heritage selection", "12");
+    const herbed = menuItem("Herbed", "A creamy dip featuring the rarest herbs", "15");
+    const creamy = menuItem("Creamy", "Classic dip with a boost of cream", "16");
 
     menu.appendChild(classic);
     menu.appendChild(spicy);
@@ -831,8 +800,30 @@ function menu(){
     menu.appendChild(herbed);
     menu.appendChild(creamy);
 
-
     return menu;
+}
+
+function menuItem(title, description, price){
+    const menuItem = document.createElement('div');
+    menuItem.classList.add('menu-item');
+
+    const itemTitle = document.createElement('span');
+    itemTitle.textContent = title;
+
+    menuItem.appendChild(itemTitle);
+
+    const itemDescription = document.createElement('div');
+    itemDescription.classList.add("item-description");
+    itemDescription.textContent = description;
+
+    menuItem.appendChild(itemDescription);
+
+    const itemPrice = document.createElement('span');
+    itemPrice.textContent = price;
+
+    menuItem.appendChild(itemPrice);
+
+    return menuItem;
 }
 
 
