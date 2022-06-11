@@ -27,7 +27,7 @@ var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBP
 ___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap);"]);
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ":root{\n    --menu: rgb(142, 0, 0);\n    --home: beige;\n}\n\nhtml,\nbody{\n    box-sizing: border-box;\n}\n\nbody{\n    min-height: 100vh;\n    display: flex;\n    flex: 1;\n}\n*,\n*:before,\n*:after{\n    box-sizing: inherit;\n    max-width: 100%;\n    margin: 0;\n    font-family: 'Abril Fatface', cursive;\n}\n\n.body{\n    display: grid;\n    grid-template-rows: 1fr 8fr .5fr;\n    flex: 1;\n    min-height: 100%;\n    min-width: 100%;\n}\n\n/* Begin header */\n\n.header{\n    background-color: turquoise;\n    display: grid;\n    grid-template-columns: 2fr repeat(3, 1fr);\n}\n\n.title{\n    padding: 0 10px;\n    font-size: 2.5rem;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n}\n\nbutton{\n    font-size: 1.5rem;\n}\n\n.home-tab{\n    background-color: var(--home);\n}\n\n.menu-tab{\n    background-color: var(--menu);\n}\n\n.contact-tab{\n    background-color: orange;\n}\n\n/* End header */\n\n/* Begin main content */\n\n.main-content{\n    background: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n    background-size: cover;\n    background-position: center;\n    display: flex; \n    align-items: center;\n    flex: 1;\n    flex-direction: column;\n    background-color: darksalmon;\n}\n\n.home{   \n    flex: 1;\n    height: 100%;\n    width: 100%;\n}\n\n.menu{\n    background-color: var(--menu);\n    flex: 1;\n    display: grid;\n    grid-template-rows: repeat(5, 1fr);\n    width: 60%;\n    gap: 5px;\n    padding: 5px;\n}\n\n.menu-item{\n    border: solid black 2px;\n    background-color: rgb(255, 177, 108);\n    text-align: center;\n    display: flex;\n    flex-direction: column;\n    justify-content: space-around;\n    padding: 1.2rem 0;\n}\n\n\n.item-description{\n    white-space: pre-line;\n    font-style: italic;\n    font-weight: 100;\n}\n\n.contact{\n    background-color: lime;\n    flex: 1;\n    height: 100%;\n    width: 100%;\n}\n\n/* End main content */\n\n.footer{\n    background-color: firebrick;\n    flex: 1;\n    height: 100%;\n    width: 100%;\n}", "",{"version":3,"sources":["webpack://./src/style.css"],"names":[],"mappings":"AAEA;IACI,sBAAsB;IACtB,aAAa;AACjB;;AAEA;;IAEI,sBAAsB;AAC1B;;AAEA;IACI,iBAAiB;IACjB,aAAa;IACb,OAAO;AACX;AACA;;;IAGI,mBAAmB;IACnB,eAAe;IACf,SAAS;IACT,qCAAqC;AACzC;;AAEA;IACI,aAAa;IACb,gCAAgC;IAChC,OAAO;IACP,gBAAgB;IAChB,eAAe;AACnB;;AAEA,iBAAiB;;AAEjB;IACI,2BAA2B;IAC3B,aAAa;IACb,yCAAyC;AAC7C;;AAEA;IACI,eAAe;IACf,iBAAiB;IACjB,aAAa;IACb,mBAAmB;IACnB,uBAAuB;AAC3B;;AAEA;IACI,iBAAiB;AACrB;;AAEA;IACI,6BAA6B;AACjC;;AAEA;IACI,6BAA6B;AACjC;;AAEA;IACI,wBAAwB;AAC5B;;AAEA,eAAe;;AAEf,uBAAuB;;AAEvB;IACI,mDAAwC;IACxC,sBAAsB;IACtB,2BAA2B;IAC3B,aAAa;IACb,mBAAmB;IACnB,OAAO;IACP,sBAAsB;IACtB,4BAA4B;AAChC;;AAEA;IACI,OAAO;IACP,YAAY;IACZ,WAAW;AACf;;AAEA;IACI,6BAA6B;IAC7B,OAAO;IACP,aAAa;IACb,kCAAkC;IAClC,UAAU;IACV,QAAQ;IACR,YAAY;AAChB;;AAEA;IACI,uBAAuB;IACvB,oCAAoC;IACpC,kBAAkB;IAClB,aAAa;IACb,sBAAsB;IACtB,6BAA6B;IAC7B,iBAAiB;AACrB;;;AAGA;IACI,qBAAqB;IACrB,kBAAkB;IAClB,gBAAgB;AACpB;;AAEA;IACI,sBAAsB;IACtB,OAAO;IACP,YAAY;IACZ,WAAW;AACf;;AAEA,qBAAqB;;AAErB;IACI,2BAA2B;IAC3B,OAAO;IACP,YAAY;IACZ,WAAW;AACf","sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');\n\n:root{\n    --menu: rgb(142, 0, 0);\n    --home: beige;\n}\n\nhtml,\nbody{\n    box-sizing: border-box;\n}\n\nbody{\n    min-height: 100vh;\n    display: flex;\n    flex: 1;\n}\n*,\n*:before,\n*:after{\n    box-sizing: inherit;\n    max-width: 100%;\n    margin: 0;\n    font-family: 'Abril Fatface', cursive;\n}\n\n.body{\n    display: grid;\n    grid-template-rows: 1fr 8fr .5fr;\n    flex: 1;\n    min-height: 100%;\n    min-width: 100%;\n}\n\n/* Begin header */\n\n.header{\n    background-color: turquoise;\n    display: grid;\n    grid-template-columns: 2fr repeat(3, 1fr);\n}\n\n.title{\n    padding: 0 10px;\n    font-size: 2.5rem;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n}\n\nbutton{\n    font-size: 1.5rem;\n}\n\n.home-tab{\n    background-color: var(--home);\n}\n\n.menu-tab{\n    background-color: var(--menu);\n}\n\n.contact-tab{\n    background-color: orange;\n}\n\n/* End header */\n\n/* Begin main content */\n\n.main-content{\n    background: url('./images/main-dip.jpg');\n    background-size: cover;\n    background-position: center;\n    display: flex; \n    align-items: center;\n    flex: 1;\n    flex-direction: column;\n    background-color: darksalmon;\n}\n\n.home{   \n    flex: 1;\n    height: 100%;\n    width: 100%;\n}\n\n.menu{\n    background-color: var(--menu);\n    flex: 1;\n    display: grid;\n    grid-template-rows: repeat(5, 1fr);\n    width: 60%;\n    gap: 5px;\n    padding: 5px;\n}\n\n.menu-item{\n    border: solid black 2px;\n    background-color: rgb(255, 177, 108);\n    text-align: center;\n    display: flex;\n    flex-direction: column;\n    justify-content: space-around;\n    padding: 1.2rem 0;\n}\n\n\n.item-description{\n    white-space: pre-line;\n    font-style: italic;\n    font-weight: 100;\n}\n\n.contact{\n    background-color: lime;\n    flex: 1;\n    height: 100%;\n    width: 100%;\n}\n\n/* End main content */\n\n.footer{\n    background-color: firebrick;\n    flex: 1;\n    height: 100%;\n    width: 100%;\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, ":root{\n    --menu: rgb(142, 0, 0);\n    --home: beige;\n}\n\nhtml,\nbody{\n    box-sizing: border-box;\n}\n\nbody{\n    min-height: 100vh;\n    display: flex;\n    flex: 1;\n}\n*,\n*:before,\n*:after{\n    box-sizing: inherit;\n    max-width: 100%;\n    margin: 0;\n    font-family: 'Abril Fatface', cursive;\n}\n\n.body{\n    display: grid;\n    grid-template-rows: 1fr 8fr .5fr;\n    flex: 1;\n    min-height: 100%;\n    min-width: 100%;\n}\n\n/* Begin header */\n\n.header{\n    background-color: turquoise;\n    display: grid;\n    grid-template-columns: 2fr repeat(3, 1fr);\n}\n\n.title{\n    padding: 0 10px;\n    font-size: 2.5rem;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n}\n\nbutton{\n    font-size: 1.5rem;\n}\n\n.home-tab{\n    background-color: var(--home);\n}\n\n.menu-tab{\n    background-color: var(--menu);\n}\n\n.contact-tab{\n    background-color: orange;\n}\n\n/* End header */\n\n/* Begin main content */\n\n.main-content{\n    background: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n    background-size: cover;\n    background-position: center;\n    display: flex; \n    align-items: center;\n    flex: 1;\n    flex-direction: column;\n    background-color: darksalmon;\n}\n\n.home{   \n    flex: 1;\n    height: 100%;\n    width: 100%;\n    color: white;\n    display: grid;\n    grid-template-columns: 1fr;\n    justify-items: center;\n    align-items: end;\n}\n\n.intro{\n    background-color: var(--home);\n    color: grey;\n    height: 50%;\n    width: 50%;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n}\n\n.photo-credit{\n    justify-self: end;\n    padding-right: 5px;\n    padding-bottom: 5px;\n}\n\na:visited{\n    color: orange;\n}\n\n.menu{\n    background-color: var(--menu);\n    flex: 1;\n    display: grid;\n    grid-template-rows: repeat(5, 1fr);\n    width: 60%;\n    gap: 5px;\n    padding: 5px;\n}\n\n.menu-item{\n    border: solid black 2px;\n    background-color: rgb(255, 177, 108);\n    text-align: center;\n    display: flex;\n    flex-direction: column;\n    justify-content: space-around;\n    padding: 1.2rem 0;\n}\n\n\n.item-description{\n    /* white-space allows for line breaks */\n    white-space: pre-line; \n    font-style: italic;\n    font-weight: 100;\n}\n\n.contact{\n    background-color: lime;\n    flex: 1;\n    height: 100%;\n    width: 100%;\n}\n\n/* End main content */\n\n.footer{\n    background-color: firebrick;\n    flex: 1;\n    height: 100%;\n    width: 100%;\n    display: grid;\n    grid-template-columns: repeat(3, 1fr);\n    justify-items: center;\n    align-items: center;\n    color: rgb(228, 253, 216);\n}", "",{"version":3,"sources":["webpack://./src/style.css"],"names":[],"mappings":"AAEA;IACI,sBAAsB;IACtB,aAAa;AACjB;;AAEA;;IAEI,sBAAsB;AAC1B;;AAEA;IACI,iBAAiB;IACjB,aAAa;IACb,OAAO;AACX;AACA;;;IAGI,mBAAmB;IACnB,eAAe;IACf,SAAS;IACT,qCAAqC;AACzC;;AAEA;IACI,aAAa;IACb,gCAAgC;IAChC,OAAO;IACP,gBAAgB;IAChB,eAAe;AACnB;;AAEA,iBAAiB;;AAEjB;IACI,2BAA2B;IAC3B,aAAa;IACb,yCAAyC;AAC7C;;AAEA;IACI,eAAe;IACf,iBAAiB;IACjB,aAAa;IACb,mBAAmB;IACnB,uBAAuB;AAC3B;;AAEA;IACI,iBAAiB;AACrB;;AAEA;IACI,6BAA6B;AACjC;;AAEA;IACI,6BAA6B;AACjC;;AAEA;IACI,wBAAwB;AAC5B;;AAEA,eAAe;;AAEf,uBAAuB;;AAEvB;IACI,mDAAwC;IACxC,sBAAsB;IACtB,2BAA2B;IAC3B,aAAa;IACb,mBAAmB;IACnB,OAAO;IACP,sBAAsB;IACtB,4BAA4B;AAChC;;AAEA;IACI,OAAO;IACP,YAAY;IACZ,WAAW;IACX,YAAY;IACZ,aAAa;IACb,0BAA0B;IAC1B,qBAAqB;IACrB,gBAAgB;AACpB;;AAEA;IACI,6BAA6B;IAC7B,WAAW;IACX,WAAW;IACX,UAAU;IACV,aAAa;IACb,uBAAuB;IACvB,mBAAmB;AACvB;;AAEA;IACI,iBAAiB;IACjB,kBAAkB;IAClB,mBAAmB;AACvB;;AAEA;IACI,aAAa;AACjB;;AAEA;IACI,6BAA6B;IAC7B,OAAO;IACP,aAAa;IACb,kCAAkC;IAClC,UAAU;IACV,QAAQ;IACR,YAAY;AAChB;;AAEA;IACI,uBAAuB;IACvB,oCAAoC;IACpC,kBAAkB;IAClB,aAAa;IACb,sBAAsB;IACtB,6BAA6B;IAC7B,iBAAiB;AACrB;;;AAGA;IACI,uCAAuC;IACvC,qBAAqB;IACrB,kBAAkB;IAClB,gBAAgB;AACpB;;AAEA;IACI,sBAAsB;IACtB,OAAO;IACP,YAAY;IACZ,WAAW;AACf;;AAEA,qBAAqB;;AAErB;IACI,2BAA2B;IAC3B,OAAO;IACP,YAAY;IACZ,WAAW;IACX,aAAa;IACb,qCAAqC;IACrC,qBAAqB;IACrB,mBAAmB;IACnB,yBAAyB;AAC7B","sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');\n\n:root{\n    --menu: rgb(142, 0, 0);\n    --home: beige;\n}\n\nhtml,\nbody{\n    box-sizing: border-box;\n}\n\nbody{\n    min-height: 100vh;\n    display: flex;\n    flex: 1;\n}\n*,\n*:before,\n*:after{\n    box-sizing: inherit;\n    max-width: 100%;\n    margin: 0;\n    font-family: 'Abril Fatface', cursive;\n}\n\n.body{\n    display: grid;\n    grid-template-rows: 1fr 8fr .5fr;\n    flex: 1;\n    min-height: 100%;\n    min-width: 100%;\n}\n\n/* Begin header */\n\n.header{\n    background-color: turquoise;\n    display: grid;\n    grid-template-columns: 2fr repeat(3, 1fr);\n}\n\n.title{\n    padding: 0 10px;\n    font-size: 2.5rem;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n}\n\nbutton{\n    font-size: 1.5rem;\n}\n\n.home-tab{\n    background-color: var(--home);\n}\n\n.menu-tab{\n    background-color: var(--menu);\n}\n\n.contact-tab{\n    background-color: orange;\n}\n\n/* End header */\n\n/* Begin main content */\n\n.main-content{\n    background: url('./images/main-dip.jpg');\n    background-size: cover;\n    background-position: center;\n    display: flex; \n    align-items: center;\n    flex: 1;\n    flex-direction: column;\n    background-color: darksalmon;\n}\n\n.home{   \n    flex: 1;\n    height: 100%;\n    width: 100%;\n    color: white;\n    display: grid;\n    grid-template-columns: 1fr;\n    justify-items: center;\n    align-items: end;\n}\n\n.intro{\n    background-color: var(--home);\n    color: grey;\n    height: 50%;\n    width: 50%;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n}\n\n.photo-credit{\n    justify-self: end;\n    padding-right: 5px;\n    padding-bottom: 5px;\n}\n\na:visited{\n    color: orange;\n}\n\n.menu{\n    background-color: var(--menu);\n    flex: 1;\n    display: grid;\n    grid-template-rows: repeat(5, 1fr);\n    width: 60%;\n    gap: 5px;\n    padding: 5px;\n}\n\n.menu-item{\n    border: solid black 2px;\n    background-color: rgb(255, 177, 108);\n    text-align: center;\n    display: flex;\n    flex-direction: column;\n    justify-content: space-around;\n    padding: 1.2rem 0;\n}\n\n\n.item-description{\n    /* white-space allows for line breaks */\n    white-space: pre-line; \n    font-style: italic;\n    font-weight: 100;\n}\n\n.contact{\n    background-color: lime;\n    flex: 1;\n    height: 100%;\n    width: 100%;\n}\n\n/* End main content */\n\n.footer{\n    background-color: firebrick;\n    flex: 1;\n    height: 100%;\n    width: 100%;\n    display: grid;\n    grid-template-columns: repeat(3, 1fr);\n    justify-items: center;\n    align-items: center;\n    color: rgb(228, 253, 216);\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -630,7 +630,21 @@ __webpack_require__.r(__webpack_exports__);
 function footer(){
     const footer = document.createElement('div');
     footer.classList.add('footer');
-    footer.textContent = 'footer';
+    
+    const address = document.createElement('div');
+    address.innerText = '123 Fake St. Springfield MO 10101';
+
+    footer.appendChild(address);
+
+    const tel = document.createElement('div');
+    tel.innerText = "555 - 323 - 4350";
+
+    footer.appendChild(tel);
+
+    const email = document.createElement('div');
+    email.innerText = "bubby@whip.dip";
+
+    footer.appendChild(email);
 
     return footer;
 }
@@ -696,8 +710,18 @@ function homeMaker(){
         const element = document.createElement('div');
         
         element.classList.add('home');
-        element.textContent = 'home';
-        
+
+        const intro = document.createElement('div');
+        intro.classList.add('intro');
+        intro.innerText = "Bubby's has been serving hand-whipped dips since 1956";
+
+        element.appendChild(intro);
+
+        const credit = document.createElement('span');
+        credit.classList.add('photo-credit');
+        credit.innerHTML = 'Photo by <a href="https://unsplash.com/@victoriakosmo">Victoria Shes</a> on <a href="https://unsplash.com/">Unsplash</a>';   
+
+        element.appendChild(credit);
         return element;
 }
 
@@ -733,21 +757,23 @@ __webpack_require__.r(__webpack_exports__);
 // contentBody contains everything on the page
 
 
-function pageLoad() {const contentBody = (0,_body_js__WEBPACK_IMPORTED_MODULE_0__.bodyMaker)();
+function pageLoad() {
+    const contentBody = (0,_body_js__WEBPACK_IMPORTED_MODULE_0__.bodyMaker)();
 
-document.body.appendChild(contentBody);
+    document.body.appendChild(contentBody);
 
-contentBody.appendChild((0,_header_js__WEBPACK_IMPORTED_MODULE_1__.headerMaker)());
+    contentBody.appendChild((0,_header_js__WEBPACK_IMPORTED_MODULE_1__.headerMaker)());
 
-// mainContentContainer holds the home, menu or contact page
+    // mainContentContainer holds the home, menu or contact page
 
-const mainContentContainer = (0,_main_content_js__WEBPACK_IMPORTED_MODULE_2__.mainContent)();
+    const mainContentContainer = (0,_main_content_js__WEBPACK_IMPORTED_MODULE_2__.mainContent)();
 
-contentBody.appendChild(mainContentContainer);
+    contentBody.appendChild(mainContentContainer);
 
-contentBody.appendChild((0,_footer__WEBPACK_IMPORTED_MODULE_4__.footer)());
+    contentBody.appendChild((0,_footer__WEBPACK_IMPORTED_MODULE_4__.footer)());
 
-mainContentContainer.appendChild((0,_home_js__WEBPACK_IMPORTED_MODULE_3__.homeMaker)());}
+    mainContentContainer.appendChild((0,_home_js__WEBPACK_IMPORTED_MODULE_3__.homeMaker)());
+}
 
 
 
@@ -788,7 +814,7 @@ function menu(){
     const menu = document.createElement('div');
     menu.classList.add('menu');
 
-    const classic = menuItem("Classic", "Our namesake dip", "14");
+    const classic = menuItem("Classic Whip", "Our namesake dip", "14");
     const spicy = menuItem("Spicy", "A spicy twist on an old favorite", "17");
     const thin = menuItem("Thin", "Flavor takes center stage with this heritage selection", "12");
     const herbed = menuItem("Herbed", "A creamy dip featuring the rarest herbs", "15");
@@ -828,11 +854,6 @@ function menuItem(title, description, price){
 
 
 
-// Photo by Abbie Tanner on Unsplash https://unsplash.com/@by_abigailkelly
-// Photo by Vicky Ng on Unsplash https://unsplash.com/@vickyng
-// Photo by Jesse Cortez on Unsplash https://unsplash.com/@zues_segami
-// Photo by Semi O https://unsplash.com/@semce 
-// Photo by Patrycja Polechonska on Unsplash https://unsplash.com/@ppolecho
 
 /***/ }),
 
@@ -997,30 +1018,6 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-
-
-// The below code was moved to initial.js
-
-// import {bodyMaker} from './body.js';
-// import {headerMaker} from './header.js';
-// import {mainContent} from './main-content.js';
-// import {footer} from './footer';
-// // contentBody contains everything on the page
-// const contentBody = bodyMaker();
-
-// document.body.appendChild(contentBody);
-
-// contentBody.appendChild(headerMaker());
-
-// // mainContentContainer holds the home, menu or contact page
-
-// const mainContentContainer = mainContent();
-
-// contentBody.appendChild(mainContentContainer);
-
-// contentBody.appendChild(footer());
-
-// mainContentContainer.appendChild(homeMaker());
 
 (0,_initial__WEBPACK_IMPORTED_MODULE_4__.pageLoad)();
 
