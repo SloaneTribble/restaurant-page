@@ -4,7 +4,7 @@ function headerMaker(){
 
     const title = document.createElement('div');
     title.classList.add('title');
-    title.textContent = 'Bubingo\'s Whipped Dips';
+    title.textContent = 'Bubby\'s Whipped Dips';
 
     const homeTab = document.createElement('button');
     homeTab.classList.add('home-tab');

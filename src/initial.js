@@ -3,7 +3,6 @@ import {headerMaker} from './header.js';
 import {mainContent} from './main-content.js';
 import {homeMaker} from './home.js';
 import {footer} from './footer';
-import waluigi from './images/waluigi.jpeg';
 
 // contentBody contains everything on the page
 

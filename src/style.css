@@ -8,6 +8,7 @@ body{
 body{
     min-height: 100vh;
     display: flex;
+    flex: 1;
 }
 *,
 *:before,
@@ -20,10 +21,13 @@ body{
 
 .body{
     display: grid;
-    grid-template-rows: 1fr 8fr 1fr;
+    grid-template-rows: 1fr 8fr .5fr;
+    flex: 1;
     min-height: 100%;
     min-width: 100%;
 }
+
+/* Begin header */
 
 .header{
     background-color: turquoise;
@@ -32,6 +36,7 @@ body{
 }
 
 .title{
+    padding: 0 10px;
     font-size: 2.5rem;
     display: flex;
     align-items: center;
@@ -54,16 +59,22 @@ button{
     background-color: orange;
 }
 
+/* End header */
+
+/* Begin main content */
+
 .main-content{
+    background: url('./images/main-dip.jpg');
+    background-size: cover;
+    background-position: center;
     display: flex; 
+    flex: 1;
     flex-direction: column;
     background-color: darksalmon;
 }
 
 .home{
-    background: url('./images/main-dip.jpg');
-    background-size: cover;
-    background-position: center;
+    
     flex: 1;
     height: 100%;
     width: 100%;
@@ -72,8 +83,16 @@ button{
 .menu{
     background-color: violet;
     flex: 1;
+    display: grid;
+    row-gap: 5px;
+    padding-bottom: 10px;
+    width: 80%;
     height: 100%;
-    width: 100%;
+    min-height: 150vh;
+}
+
+.menu-item{
+    border: solid black 2px;
 }
 
 .contact{
@@ -82,6 +101,8 @@ button{
     height: 100%;
     width: 100%;
 }
+
+/* End main content */
 
 .footer{
     background-color: firebrick;

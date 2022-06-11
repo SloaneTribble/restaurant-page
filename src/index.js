@@ -2,7 +2,6 @@ import './style.css';
 import {homeMaker} from './home.js';
 import {menu} from './menu.js';
 import {contact} from './contact';
-import waluigi from './images/waluigi.jpeg';
 
 import{pageLoad} from './initial';
 

@@ -27,7 +27,7 @@ var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBP
 ___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap);"]);
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "html,\nbody{\n    box-sizing: border-box;\n}\n\nbody{\n    min-height: 100vh;\n    display: flex;\n}\n*,\n*:before,\n*:after{\n    box-sizing: inherit;\n    max-width: 100%;\n    margin: 0;\n    font-family: 'Abril Fatface', cursive;\n}\n\n.body{\n    display: grid;\n    grid-template-rows: 1fr 8fr 1fr;\n    min-height: 100%;\n    min-width: 100%;\n}\n\n.header{\n    background-color: turquoise;\n    display: grid;\n    grid-template-columns: 2fr repeat(3, 1fr);\n}\n\n.title{\n    font-size: 2.5rem;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n}\n\nbutton{\n    font-size: 1.5rem;\n}\n\n.home-tab{\n    background-color: beige;\n}\n\n.menu-tab{\n    background-color: violet;\n}\n\n.contact-tab{\n    background-color: orange;\n}\n\n.main-content{\n    display: flex; \n    flex-direction: column;\n    background-color: darksalmon;\n}\n\n.home{\n    background: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n    background-size: cover;\n    background-position: center;\n    flex: 1;\n    height: 100%;\n    width: 100%;\n}\n\n.menu{\n    background-color: violet;\n    flex: 1;\n    height: 100%;\n    width: 100%;\n}\n\n.contact{\n    background-color: lime;\n    flex: 1;\n    height: 100%;\n    width: 100%;\n}\n\n.footer{\n    background-color: firebrick;\n    flex: 1;\n    height: 100%;\n    width: 100%;\n}", "",{"version":3,"sources":["webpack://./src/style.css"],"names":[],"mappings":"AAEA;;IAEI,sBAAsB;AAC1B;;AAEA;IACI,iBAAiB;IACjB,aAAa;AACjB;AACA;;;IAGI,mBAAmB;IACnB,eAAe;IACf,SAAS;IACT,qCAAqC;AACzC;;AAEA;IACI,aAAa;IACb,+BAA+B;IAC/B,gBAAgB;IAChB,eAAe;AACnB;;AAEA;IACI,2BAA2B;IAC3B,aAAa;IACb,yCAAyC;AAC7C;;AAEA;IACI,iBAAiB;IACjB,aAAa;IACb,mBAAmB;IACnB,uBAAuB;AAC3B;;AAEA;IACI,iBAAiB;AACrB;;AAEA;IACI,uBAAuB;AAC3B;;AAEA;IACI,wBAAwB;AAC5B;;AAEA;IACI,wBAAwB;AAC5B;;AAEA;IACI,aAAa;IACb,sBAAsB;IACtB,4BAA4B;AAChC;;AAEA;IACI,mDAAwC;IACxC,sBAAsB;IACtB,2BAA2B;IAC3B,OAAO;IACP,YAAY;IACZ,WAAW;AACf;;AAEA;IACI,wBAAwB;IACxB,OAAO;IACP,YAAY;IACZ,WAAW;AACf;;AAEA;IACI,sBAAsB;IACtB,OAAO;IACP,YAAY;IACZ,WAAW;AACf;;AAEA;IACI,2BAA2B;IAC3B,OAAO;IACP,YAAY;IACZ,WAAW;AACf","sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');\n\nhtml,\nbody{\n    box-sizing: border-box;\n}\n\nbody{\n    min-height: 100vh;\n    display: flex;\n}\n*,\n*:before,\n*:after{\n    box-sizing: inherit;\n    max-width: 100%;\n    margin: 0;\n    font-family: 'Abril Fatface', cursive;\n}\n\n.body{\n    display: grid;\n    grid-template-rows: 1fr 8fr 1fr;\n    min-height: 100%;\n    min-width: 100%;\n}\n\n.header{\n    background-color: turquoise;\n    display: grid;\n    grid-template-columns: 2fr repeat(3, 1fr);\n}\n\n.title{\n    font-size: 2.5rem;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n}\n\nbutton{\n    font-size: 1.5rem;\n}\n\n.home-tab{\n    background-color: beige;\n}\n\n.menu-tab{\n    background-color: violet;\n}\n\n.contact-tab{\n    background-color: orange;\n}\n\n.main-content{\n    display: flex; \n    flex-direction: column;\n    background-color: darksalmon;\n}\n\n.home{\n    background: url('./images/main-dip.jpg');\n    background-size: cover;\n    background-position: center;\n    flex: 1;\n    height: 100%;\n    width: 100%;\n}\n\n.menu{\n    background-color: violet;\n    flex: 1;\n    height: 100%;\n    width: 100%;\n}\n\n.contact{\n    background-color: lime;\n    flex: 1;\n    height: 100%;\n    width: 100%;\n}\n\n.footer{\n    background-color: firebrick;\n    flex: 1;\n    height: 100%;\n    width: 100%;\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "html,\nbody{\n    box-sizing: border-box;\n}\n\nbody{\n    min-height: 100vh;\n    display: flex;\n    flex: 1;\n}\n*,\n*:before,\n*:after{\n    box-sizing: inherit;\n    max-width: 100%;\n    margin: 0;\n    font-family: 'Abril Fatface', cursive;\n}\n\n.body{\n    display: grid;\n    grid-template-rows: 1fr 8fr .5fr;\n    flex: 1;\n    min-height: 100%;\n    min-width: 100%;\n}\n\n/* Begin header */\n\n.header{\n    background-color: turquoise;\n    display: grid;\n    grid-template-columns: 2fr repeat(3, 1fr);\n}\n\n.title{\n    padding: 0 10px;\n    font-size: 2.5rem;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n}\n\nbutton{\n    font-size: 1.5rem;\n}\n\n.home-tab{\n    background-color: beige;\n}\n\n.menu-tab{\n    background-color: violet;\n}\n\n.contact-tab{\n    background-color: orange;\n}\n\n/* End header */\n\n/* Begin main content */\n\n.main-content{\n    background: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n    background-size: cover;\n    background-position: center;\n    display: flex; \n    flex: 1;\n    flex-direction: column;\n    background-color: darksalmon;\n}\n\n.home{\n    \n    flex: 1;\n    height: 100%;\n    width: 100%;\n}\n\n.menu{\n    background-color: violet;\n    flex: 1;\n    display: grid;\n    row-gap: 5px;\n    padding-bottom: 10px;\n    width: 80%;\n    height: 100%;\n    min-height: 150vh;\n}\n\n.menu-item{\n    border: solid black 2px;\n}\n\n.contact{\n    background-color: lime;\n    flex: 1;\n    height: 100%;\n    width: 100%;\n}\n\n/* End main content */\n\n.footer{\n    background-color: firebrick;\n    flex: 1;\n    height: 100%;\n    width: 100%;\n}", "",{"version":3,"sources":["webpack://./src/style.css"],"names":[],"mappings":"AAEA;;IAEI,sBAAsB;AAC1B;;AAEA;IACI,iBAAiB;IACjB,aAAa;IACb,OAAO;AACX;AACA;;;IAGI,mBAAmB;IACnB,eAAe;IACf,SAAS;IACT,qCAAqC;AACzC;;AAEA;IACI,aAAa;IACb,gCAAgC;IAChC,OAAO;IACP,gBAAgB;IAChB,eAAe;AACnB;;AAEA,iBAAiB;;AAEjB;IACI,2BAA2B;IAC3B,aAAa;IACb,yCAAyC;AAC7C;;AAEA;IACI,eAAe;IACf,iBAAiB;IACjB,aAAa;IACb,mBAAmB;IACnB,uBAAuB;AAC3B;;AAEA;IACI,iBAAiB;AACrB;;AAEA;IACI,uBAAuB;AAC3B;;AAEA;IACI,wBAAwB;AAC5B;;AAEA;IACI,wBAAwB;AAC5B;;AAEA,eAAe;;AAEf,uBAAuB;;AAEvB;IACI,mDAAwC;IACxC,sBAAsB;IACtB,2BAA2B;IAC3B,aAAa;IACb,OAAO;IACP,sBAAsB;IACtB,4BAA4B;AAChC;;AAEA;;IAEI,OAAO;IACP,YAAY;IACZ,WAAW;AACf;;AAEA;IACI,wBAAwB;IACxB,OAAO;IACP,aAAa;IACb,YAAY;IACZ,oBAAoB;IACpB,UAAU;IACV,YAAY;IACZ,iBAAiB;AACrB;;AAEA;IACI,uBAAuB;AAC3B;;AAEA;IACI,sBAAsB;IACtB,OAAO;IACP,YAAY;IACZ,WAAW;AACf;;AAEA,qBAAqB;;AAErB;IACI,2BAA2B;IAC3B,OAAO;IACP,YAAY;IACZ,WAAW;AACf","sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');\n\nhtml,\nbody{\n    box-sizing: border-box;\n}\n\nbody{\n    min-height: 100vh;\n    display: flex;\n    flex: 1;\n}\n*,\n*:before,\n*:after{\n    box-sizing: inherit;\n    max-width: 100%;\n    margin: 0;\n    font-family: 'Abril Fatface', cursive;\n}\n\n.body{\n    display: grid;\n    grid-template-rows: 1fr 8fr .5fr;\n    flex: 1;\n    min-height: 100%;\n    min-width: 100%;\n}\n\n/* Begin header */\n\n.header{\n    background-color: turquoise;\n    display: grid;\n    grid-template-columns: 2fr repeat(3, 1fr);\n}\n\n.title{\n    padding: 0 10px;\n    font-size: 2.5rem;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n}\n\nbutton{\n    font-size: 1.5rem;\n}\n\n.home-tab{\n    background-color: beige;\n}\n\n.menu-tab{\n    background-color: violet;\n}\n\n.contact-tab{\n    background-color: orange;\n}\n\n/* End header */\n\n/* Begin main content */\n\n.main-content{\n    background: url('./images/main-dip.jpg');\n    background-size: cover;\n    background-position: center;\n    display: flex; \n    flex: 1;\n    flex-direction: column;\n    background-color: darksalmon;\n}\n\n.home{\n    \n    flex: 1;\n    height: 100%;\n    width: 100%;\n}\n\n.menu{\n    background-color: violet;\n    flex: 1;\n    display: grid;\n    row-gap: 5px;\n    padding-bottom: 10px;\n    width: 80%;\n    height: 100%;\n    min-height: 150vh;\n}\n\n.menu-item{\n    border: solid black 2px;\n}\n\n.contact{\n    background-color: lime;\n    flex: 1;\n    height: 100%;\n    width: 100%;\n}\n\n/* End main content */\n\n.footer{\n    background-color: firebrick;\n    flex: 1;\n    height: 100%;\n    width: 100%;\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -655,7 +655,7 @@ function headerMaker(){
 
     const title = document.createElement('div');
     title.classList.add('title');
-    title.textContent = 'Bubingo\'s Whipped Dips';
+    title.textContent = 'Bubby\'s Whipped Dips';
 
     const homeTab = document.createElement('button');
     homeTab.classList.add('home-tab');
@@ -724,8 +724,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _main_content_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./main-content.js */ "./src/main-content.js");
 /* harmony import */ var _home_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./home.js */ "./src/home.js");
 /* harmony import */ var _footer__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./footer */ "./src/footer.js");
-/* harmony import */ var _images_waluigi_jpeg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./images/waluigi.jpeg */ "./src/images/waluigi.jpeg");
-
 
 
 
@@ -789,12 +787,44 @@ __webpack_require__.r(__webpack_exports__);
 function menu(){
     const menu = document.createElement('div');
     menu.classList.add('menu');
-    menu.textContent = 'menu';
+
+    const classic = document.createElement('div');
+    classic.classList.add('menu-item');
+    classic.textContent = 'classic';
+
+    const spicy = document.createElement('div');
+    spicy.classList.add('menu-item');
+    spicy.textContent = 'spicy';
+
+    const thin = document.createElement('div');
+    thin.classList.add('menu-item');
+    thin.textContent = 'thin';
+
+    const herbed = document.createElement('div');
+    herbed.classList.add('menu-item');
+    herbed.textContent = 'herbed';
+
+    const creamy = document.createElement('div');
+    creamy.classList.add('menu-item');
+    creamy.textContent = 'creamy';
+
+    menu.appendChild(classic);
+    menu.appendChild(spicy);
+    menu.appendChild(thin);
+    menu.appendChild(herbed);
+    menu.appendChild(creamy);
+
 
     return menu;
 }
 
 
+
+// Photo by Abbie Tanner on Unsplash https://unsplash.com/@by_abigailkelly
+// Photo by Vicky Ng on Unsplash https://unsplash.com/@vickyng
+// Photo by Jesse Cortez on Unsplash https://unsplash.com/@zues_segami
+// Photo by Semi O https://unsplash.com/@semce 
+// Photo by Patrycja Polechonska on Unsplash https://unsplash.com/@ppolecho
 
 /***/ }),
 
@@ -805,16 +835,6 @@ function menu(){
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 module.exports = __webpack_require__.p + "e58c7c238cc1afbab9bd.jpg";
-
-/***/ }),
-
-/***/ "./src/images/waluigi.jpeg":
-/*!*********************************!*\
-  !*** ./src/images/waluigi.jpeg ***!
-  \*********************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-module.exports = __webpack_require__.p + "5d6e9d2551f1ac74af76.jpeg";
 
 /***/ })
 
@@ -963,9 +983,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _home_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./home.js */ "./src/home.js");
 /* harmony import */ var _menu_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./menu.js */ "./src/menu.js");
 /* harmony import */ var _contact__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./contact */ "./src/contact.js");
-/* harmony import */ var _images_waluigi_jpeg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./images/waluigi.jpeg */ "./src/images/waluigi.jpeg");
-/* harmony import */ var _initial__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./initial */ "./src/initial.js");
-
+/* harmony import */ var _initial__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./initial */ "./src/initial.js");
 
 
 
@@ -996,7 +1014,7 @@ __webpack_require__.r(__webpack_exports__);
 
 // mainContentContainer.appendChild(homeMaker());
 
-(0,_initial__WEBPACK_IMPORTED_MODULE_5__.pageLoad)();
+(0,_initial__WEBPACK_IMPORTED_MODULE_4__.pageLoad)();
 
 
 // Tabs will clear mainContentContainer and replace with relevant section material
