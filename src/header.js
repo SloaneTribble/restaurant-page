@@ -8,15 +8,15 @@ function headerMaker(){
 
     const homeTab = document.createElement('button');
     homeTab.classList.add('home-tab');
-    homeTab.textContent = 'home tab';
+    homeTab.textContent = 'home';
 
     const menuTab = document.createElement('button');
     menuTab.classList.add('menu-tab');
-    menuTab.textContent = 'menu tab';
+    menuTab.textContent = 'menu';
 
     const contactTab = document.createElement('button');
     contactTab.classList.add('contact-tab');
-    contactTab.textContent = 'contact tab';
+    contactTab.textContent = 'contact';
 
     header.appendChild(title);
     header.appendChild(homeTab);
