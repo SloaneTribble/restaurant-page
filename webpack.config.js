@@ -1,8 +1,16 @@
 const path = require('path');
 
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+
 module.exports = {
   mode: 'development',
   devtool: 'source-map',
+  plugins: [
+    new HtmlWebpackPlugin({
+      title: 'Bubby\'s Whipped Dips',
+      favicon: './src/images/favicon.ico',
+    })
+  ],
   entry: './src/index.js',
   output: {
     filename: 'bundle.js',
